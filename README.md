@@ -1,4 +1,4 @@
-# Quiz-Bee-Software
+# Quiz Bee Software
 
 The skills, competence, and knowledge of students can be measured through its performance in competitions like quiz bee. To make it convenient, you are to design a software quiz bee that consists of the following: 
 a.	The software contains the following menus (Easy, Average, and Difficult).
