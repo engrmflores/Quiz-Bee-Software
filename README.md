@@ -18,5 +18,9 @@ The program is composed with by three categories presented through three buttons
 ![image](https://github.com/user-attachments/assets/78d1cf87-a949-4c94-84ed-ea724a017cba)
 ![image](https://github.com/user-attachments/assets/70f51b1c-4589-4c0f-995c-7581acc88bf6)
 
+In light of this activity, I was able to execute the objective of this program through applying the various features and tools of software design. The conditions and exceptions were a little hard to figure out but through proper naming conventions and following the coding rules, the program is up and running. 
+
+
+
 
 
