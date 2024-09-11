@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Plate 1-QuizBee.exe" version="1.0.0.2" publicKeyToken="2ad0da93a72b5151" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Plate 1-QuizBee" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Plate 1-QuizBee.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Plate 1-QuizBee.exe" size="76800">
+      <assemblyIdentity name="Plate 1-QuizBee" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>94aM6OQ2tMvmeAOiTeWQvkM2HGtGa4o9+w+GCNAy4LI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Plate 1-QuizBee.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ART\jer" issuerKeyHash="a6c39bc85f24fadb2ffc6c2ad8c02e6bdda29c5e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yu/RHJ2+KB4FxdpupkK/S8i/OmaJLLNFdnHr6KajB6Y=</DigestValue></Reference></SignedInfo><SignatureValue>M/yPVhVLy34io8BHxIFs/tQEUTedmhsiUdVxsBLV7WutjdIoQbVp8wfa9s/XlA8uUYqmB4LaexK1Li9vM3MJsyXmQ81BJo/7VlECY89ynADRZBk0f8W+2RVfBoyP5E1j5G2hO/0F32aS5kfKLgjt31tavtrFQZSZWCkH8bXYkss=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2nWFB4nMWHlVI9EoL7ek9pbEaXxYaQtOETUiNmM6u5LQuYIaaOJSwq6WscNBB5c8Pi2Z6duhjKRYO1rYduoWVJzD0isdceP2E9eXFec+/xEybgTczrlyE7R4D05feNo/femHQ60nY9AEkulgIg9kPa41XFLTkN596y929VifKCM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a607a3a6e8eb717645b32c89663abfc84bbf42a66edac5051e28be9d1cd1efca" Description="" Url=""><as:assemblyIdentity name="Plate 1-QuizBee.exe" version="1.0.0.2" publicKeyToken="2ad0da93a72b5151" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ART\jer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>m+kr5NnoUnZgaI+4xbqBUOVNQCXH0u7clfUResLAO7g=</DigestValue></Reference></SignedInfo><SignatureValue>s5DaS/GrjkQxd0dH0wYRWdpMUZIx8/6UAwX886Q85h3jVQIG1NKjld+6/E9xsVmeTdDnaoxBqxingTvrTXzhIFJoodjRwFteX7stG4ywNIZnu4wbjIdgG63kDewyJCL5nKG8O240b6wOKZtvk0/Iw4O55YxZ0sKX7DAvrlRAgEM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2nWFB4nMWHlVI9EoL7ek9pbEaXxYaQtOETUiNmM6u5LQuYIaaOJSwq6WscNBB5c8Pi2Z6duhjKRYO1rYduoWVJzD0isdceP2E9eXFec+/xEybgTczrlyE7R4D05feNo/femHQ60nY9AEkulgIg9kPa41XFLTkN596y929VifKCM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQEYbmtSnlzKBOQfoF3VQhzTANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDHg4AQQBSAFQAXABqAGUAcjAeFw0xOTA3MjUwMDM1MjBaFw0yMDA3MjQwNjM1MjBaMBkxFzAVBgNVBAMeDgBBAFIAVABcAGoAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDadYUHicxYeVUj0Sgvt6T2lsRpfFhpC04RNSI2Yzq7ktC5ghpo4lLCrpaxw0EHlzw+LZnp26GMpFg7Wth26hZUnMPSKx1x4/YT15cV5z7/ETJuBNzOuXITtHgPTl942j996YdDrSdj0ASS6WAiD2Q9rjVcUtOQ3n3rL3b1WJ8oIwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAuOUn3r6VDT9OjJBm50GkLHRSma7QnV5DVjlv+5HZK+xphFu96LLfCTvmCAtwwtOZC16OgzKGTGO/+nN8UdsSw6ID40jjhd9553GNEyn2+9mFQolF0K5/VJtbpVeuqAOndJ/79SqpX+71epBxOyiek3HU53lspid2QyhxBzLX+U</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
